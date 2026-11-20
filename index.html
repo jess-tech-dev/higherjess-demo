@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Démos & Maquettes — Higherjess Business</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div>
+        <span class="brand-tag">Higherjess Business</span>
+        <h1>Catalogue de Démos</h1>
+      </div>
+      <a href="https://higherjess.com" class="back-link">← Site principal</a>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <section class="intro">
+      <h2>Aperçus sur mesure pour vos clients</h2>
+      <p>Filtrez par catégorie et cliquez sur une maquette pour l'agrandir ou demander une version personnalisée.</p>
+    </section>
+
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">Tout</button>
+      <button class="filter-btn" data-filter="ecommerce">E-commerce & Santé</button>
+      <button class="filter-btn" data-filter="vitrine">Sites Vitrine</button>
+      <button class="filter-btn" data-filter="webapp">Applications Web</button>
+    </div>
+
+    <section class="demo-grid" id="demo-grid"></section>
+  </main>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" id="close-modal" aria-label="Fermer">✕</button>
+      <div class="modal-media">
+        <img id="modal-img" src="" alt="" />
+      </div>
+      <div class="modal-body">
+        <span id="modal-cat" class="modal-cat"></span>
+        <h3 id="modal-title"></h3>
+        <p id="modal-desc"></p>
+        <div class="modal-actions">
+          <a id="modal-whatsapp" href="#" target="_blank" rel="noopener" class="btn-primary">
+            Commander sur WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
