@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "243000000000"; // Remplace par ton numéro sans le +
+const WHATSAPP_NUMBER = "243817817177"; // Remplace par ton numéro sans le +
 
 const demos = [
   {
@@ -6,7 +6,7 @@ const demos = [
     title: "Pharmacie du 30 Juin — Gombe",
     category: "ecommerce",
     categoryLabel: "E-commerce & Santé",
-    image: "images/pharmajess.jpg",
+    image: "Pharmajess.jpg",
     description:
       "Maquette mobile avec commande directe sur WhatsApp, recherche de médicaments, catégories (Médicaments, Bébé, Beauté) et produits populaires."
   }
